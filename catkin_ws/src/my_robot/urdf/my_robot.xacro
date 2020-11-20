@@ -7,6 +7,10 @@
     <color rgba=" 0 0.9 0 1"/>
   </material>
 
+  <material name="Blue">
+    <color rgba=" 0 0 0.9 1"/>
+  </material>
+
   <link name="robot_footprint"></link>
 
   <joint name="robot_footprint_joint" type="fixed">
@@ -212,5 +216,14 @@
   <gazebo reference="chassis">
     <material>Gazebo/Green</material>
   </gazebo>
+
+  <gazebo reference="SIDE_left_wheel">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+
+  <gazebo reference="SIDE_right_wheel">
+    <material>Gazebo/Blue</material>
+  </gazebo>
 </robot>
+
  
